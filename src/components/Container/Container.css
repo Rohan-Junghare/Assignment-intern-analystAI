@@ -1,0 +1,76 @@
+body {
+    background-color: grey;
+}
+
+.containerComp {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+    height: 6rem;
+    align-items: center;
+    position: relative; 
+}
+
+.boxOne{
+    margin-left: 0;
+}
+.boxTwo{
+    margin-left: 6rem;
+}
+.boxThree{
+    margin-left: 6rem;
+}
+.boxFour{
+    margin-left: 6rem;
+}
+.boxButton{
+    margin-left: 10rem;
+    cursor: pointer;
+    
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: #cf3434;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 34px;
+}
+
+.detailDesc {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    
+}
+
+.descBox {
+    text-align: justify;
+}
+
+.divideColumnBox {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+
+.contactBox {
+    background-color: rgb(255, 255, 255);
+    width: 30rem;
+
+    
+}
+
+.contactBoxTwo {
+    background-color: rgb(255, 255, 255);
+    width: 30rem;
+    margin-left: 2rem;
+    
+}
